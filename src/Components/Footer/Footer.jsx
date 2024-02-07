@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="main-container w-full h-[138px] relative mx-auto my-0">
-        <div className="w-[1280px] h-[32px] relative z-10 mt-[30px] mr-0 mb-0 ml-[320px]">
+      <div className="main-container w-[1440PX] h-[138px] relative mx-auto my-0">
+        <div className="w-[1280px] h-[32px] relative z-10 mt-[30px]">
           <span className="flex h-[32px] justify-start items-start font-['Volkhov'] text-[32px] font-normal leading-[32px] text-[#484848] absolute top-0 left-0 text-left whitespace-nowrap z-10">
             FASCO
           </span>

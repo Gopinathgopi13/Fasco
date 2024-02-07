@@ -19,11 +19,11 @@ function Subscribe() {
           duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
           sollicitudin
         </span>
-        <div className="w-[631px] h-[86px] bg-[#fff] absolute top-[368px] left-[384px] shadow-[0_3.019px_3.148px_0_rgba(0,0,0,0.01)] z-[5]">
-          <span className="flex h-[26px] justify-start items-start font-['Poppins'] text-[22px] font-normal leading-[26px] text-[#8a8a8a] absolute top-[28px] left-[30px] text-left whitespace-nowrap z-[6]">
-            michael@ymail.com
-          </span>
-        </div>
+          {/* <div className="w-[631px] h-[86px] bg-[#fff] absolute top-[368px] left-[384px] shadow-[0_3.019px_3.148px_0_rgba(0,0,0,0.01)] z-[5]">
+            <span className="flex h-[26px] justify-start items-start font-['Poppins'] text-[22px] font-normal leading-[26px] text-[#8a8a8a] absolute text-left whitespace-nowrap z-[6]">
+              michael@ymail.com
+            </span>
+          </div> */}
         <div className="w-[207px] h-[56px] bg-[#000] rounded-[10px] absolute top-[484px] left-[595px] shadow-[0_20px_35px_0_rgba(0,0,0,0.15)] z-[2]">
           <span className="flex w-[119px] h-[16px] justify-center items-start font-['Poppins'] text-[16px] font-normal leading-[16px] text-[#fff] absolute top-[20px] left-[44px] text-center whitespace-nowrap z-[3]">
             Subscribe Now

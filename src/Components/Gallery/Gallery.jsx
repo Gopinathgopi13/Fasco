@@ -10,15 +10,17 @@ function Gallery() {
   return (
     <div>
       <div className="main-container w-full h-[611px] text-[0px] relative mx-auto my-0">
-        <span className="flex w-[536px] h-[59px] justify-center items-start font-['Volkhov'] text-[46px] font-normal leading-[59px] text-[#484848] relative text-center whitespace-nowrap z-[3] mt-0 mr-0 mb-0 ml-[692px]">
+        <div className="flex flex-col justify-center items-center">
+        <span className="flex w-[536px] h-[59px] justify-center items-start font-['Volkhov'] text-[46px] font-normal leading-[59px] text-[#484848] relative text-center whitespace-nowrap z-[3]">
           Follow Us On Instagram
         </span>
-        <span className="flex w-[614px] h-[52px] justify-center items-start font-['Poppins'] text-[16px] font-normal leading-[26px] text-[#8a8a8a] relative text-center z-[2] mt-[20px] mr-0 mb-0 ml-[653px]">
+        <span className="flex w-[614px] h-[52px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[26px] text-[#8a8a8a] relative text-center z-[2] mt-[20px] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
           duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
           sollicitudin
         </span>
-        <div className="w-[1900px] h-[380px] bg-cover flex flex-wrap justify-around items-center bg-no-repeat absolute top-[231px] left-0">
+        </div>
+        <div className="w-full h-[380px] bg-cover flex justify-around items-center bg-no-repeat absolute top-[231px] left-0">
         <img src={image1} alt=""/>
         <img src={image2} alt=""/>
         <img src={image3} alt=""/>
