@@ -7,7 +7,7 @@ import image5 from "../../assets/Card_image5.png";
 import image6 from "../../assets/Card_image6.png";
 function NewArrivals() {
   return (
-    <>
+    <div className="w-full">
       <div className="main-container w-[614px] h-[131px] text-[0px] relative mx-auto my-0">
         <span className="flex w-[289px] h-[59px] justify-center items-start font-['Volkhov'] text-[46px] font-normal leading-[59px] text-[#484848] relative text-center whitespace-nowrap z-[1] mt-0 mr-0 mb-0 ml-[163px]">
           New Arrivals
@@ -201,7 +201,7 @@ function NewArrivals() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default NewArrivals;

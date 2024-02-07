@@ -9,7 +9,7 @@ import image7 from '../../assets/gallery_image_7.png'
 function Gallery() {
   return (
     <div>
-      <div className="main-container w-[1900px] h-[611px] text-[0px] relative mx-auto my-0">
+      <div className="main-container w-full h-[611px] text-[0px] relative mx-auto my-0">
         <span className="flex w-[536px] h-[59px] justify-center items-start font-['Volkhov'] text-[46px] font-normal leading-[59px] text-[#484848] relative text-center whitespace-nowrap z-[3] mt-0 mr-0 mb-0 ml-[692px]">
           Follow Us On Instagram
         </span>

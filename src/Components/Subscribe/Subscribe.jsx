@@ -3,7 +3,7 @@ import image1 from "../../assets/subscribe_image_1.png";
 import image2 from "../../assets/subscribe_image_2.png";
 function Subscribe() {
   return (
-    <div>
+    <div className="w-full">
       <div className="main-container w-[1400px] h-[747px] relative mx-auto my-0">
         <div className="w-[355px] h-[747px] bg-cover bg-no-repeat absolute top-0 left-0 z-10">
           <img src={image1} alt="" />

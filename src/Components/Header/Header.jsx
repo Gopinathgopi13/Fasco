@@ -5,7 +5,7 @@ import image3 from '../../assets/Header_image3.png';
 import image4 from '../../assets/Header_image4.png';
 function Header() {
   return (
-    <div>
+    <div className="w-full">
       <div className="main-container w-[1281px] h-[906px] relative mx-auto my-0">
         <div className="w-[1280px] h-[56px] relative z-[23] mt-0 mr-0 mb-0 ml-0">
           <div className="w-[152px] h-[56px] bg-[#000] rounded-[10px] absolute top-0 left-[1128px] shadow-[0_20px_35px_0_rgba(0,0,0,0.15)] z-[16]">

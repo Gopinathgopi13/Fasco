@@ -7,7 +7,7 @@ import logo5 from "../../assets/brand_logo5.png";
 function Brand() {
   return (
     <div>
-      <div className="main-container w-[1900px] h-[200px] flex justify-center items-center">
+      <div className="main-container w-full h-[200px] flex justify-center items-center">
         <div className="w-[1280px] h-[36px] flex justify-around">
           <div className="w-[196px] h-[32px]">
             <img src={logo1} />
